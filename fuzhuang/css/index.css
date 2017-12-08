@@ -1,0 +1,156 @@
+/*大种类*/
+.classify {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: #C60E02;
+}
+.classify .classify-middle {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.classify .classify-middle span  {
+    display: inline-block;
+    margin-right: 20px;
+}
+.classify .classify-middle a {
+    color: #fff;
+    font-size: 16px;
+}
+.big_pic1 {
+    width: 100%;
+}
+.big_pic1 img {
+    width: 100%;
+    height: 100%;
+}
+.big_pic2 img {
+    display: block;
+}
+.big_pic3 {
+    width: 100%;
+    padding: 0 340px;
+    box-sizing: border-box;
+}
+.big_pic3 .big_pic3_left,.big_pic3 .big_pic3_right {
+    float: left;
+
+}
+.big_pic3 .big_pic3_right {
+    float: right;
+}
+.big_pic3 .big_pic3_left a,.big_pic3 .big_pic3_right a {
+    display: block;
+}
+.big_pic3 .big_pic3_left img,.big_pic3 .big_pic3_right img {
+    display: block;
+    width: 584px;
+    height: 674px;
+}
+.big_pic3 .big_pic3_left p,.big_pic3 .big_pic3_right p {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #cd9b52;
+}
+.big_pic3 .big_pic3_left i,.big_pic3 .big_pic3_right i {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.main {
+    width: 1222px;
+    margin: 0 auto;
+    background-color: #fe2b4f;
+}
+.main .see-more {
+    width: 100%;
+}
+.main .see-more a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #C60E02;
+}
+.main  .main-kinds h2 {
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.main  .main-kinds h2 span.kinds-icon {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background: url("../images/kinds-icon.png") no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+}
+.main  .main-kinds .kinds-show {
+    width: 100%;
+}
+.main  .main-kinds .kinds-show li {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+    overflow: hidden;
+}
+.main  .main-kinds .kinds-show li:last-child {
+    margin: 0;
+}
+.main  .main-kinds .kinds-show li a {
+    display: block;
+}
+.main  .main-kinds .kinds-show li img {
+    display: block;
+    width: 80%;
+    height: 280px;
+    margin: 0 auto;
+}
+.main  .main-kinds .kinds-show li p{
+    width: 80%;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0 10px;
+    color: #000;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.main  .main-kinds .kinds-show li p:nth-child(3) {
+    color: red;
+    font-size: 22px;
+}
+.main  .main-kinds .kinds-show li p:nth-child(4) {
+    color: #a5a5a5;
+}
+.back {
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    right: 50px;
+    bottom: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    background-color: #ffc4e4;
+}
+.back:hover{
+    background-color: #ff6ada;
+}

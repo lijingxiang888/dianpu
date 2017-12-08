@@ -1,0 +1,83 @@
+.classify {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #C60E02;
+}
+.classify .classify-middle {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.classify .classify-middle span {
+    display: inline-block;
+    width: 80px;
+    height: 100%;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.classify .classify-middle span a {
+    color: #fff;
+}
+.main {
+    width: 1222px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #fe2b4f;
+}
+.main  .main-kinds .kinds-show {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main  .main-kinds .kinds-show li {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+    overflow: hidden;
+}
+.main  .main-kinds .kinds-show li:last-child {
+    margin: 0;
+}
+.main  .main-kinds .kinds-show li a {
+    display: block;
+}
+.main  .main-kinds .kinds-show li img {
+    display: block;
+    width: 80%;
+    height: 280px;
+    margin: 0 auto;
+}
+.main  .main-kinds .kinds-show li p{
+    width: 80%;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0 10px;
+    color: #000;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.main  .main-kinds .kinds-show li p:nth-child(3) {
+    color: red;
+    font-size: 22px;
+}
+.main  .main-kinds .kinds-show li p:nth-child(4) {
+    color: #a5a5a5;
+}
+.back {
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    right: 50px;
+    bottom: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    background-color: #ffc4e4;
+}
+.back:hover{
+    background-color: #ff6ada;
+}

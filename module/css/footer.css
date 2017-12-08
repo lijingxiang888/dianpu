@@ -1,0 +1,86 @@
+/*底部*/
+.footer {
+    width: 100%;
+    height: 500px;
+}
+.footer .help {
+    width: 70%;
+    margin: 40px auto;
+}
+.footer .help ul {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.footer .help ul li {
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.footer .help ul a {
+    font-size: 15px;
+    color: #666;
+}
+.footer .help .business {
+    float: left;
+    width: 20%;
+    height: 242px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    background: url("../images/map.png") no-repeat center;
+    background-size: 242px 242px;
+}
+.footer .help .business p:nth-child(2),.footer .help .business p:nth-child(3) {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: left;
+}
+.footer  .line {
+    width: 1px;
+    height: 12px;
+    margin-top: 4px;
+    background: #999;
+    padding: 0;
+}
+.footer .footer-detail ul {
+    width: 682px;
+    margin: 30px auto;
+}
+.footer .footer-detail li {
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+
+}
+.footer .footer-detail li a {
+    font-size: 14px;
+    color: #666;
+}
+.footer .footer-last {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.footer .footer-last a {
+    color: #666;
+}
+.footer-icon {
+    width: 100%;
+}
+.footer-icon div {
+    width: 760px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+.footer-icon div a {
+    display: inline-block;
+    width: 16%;
+    height: 38px;
+}
+.footer-icon div a img {
+    width: 100%;
+    height: 100%;
+}
