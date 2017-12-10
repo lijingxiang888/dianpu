@@ -1,3 +1,10 @@
+.new {
+    width: 100%;
+}
+.new img {
+    display: block;
+    width: 100%;
+}
 .new h2 {
     height: 70px;
     line-height: 70px;
@@ -96,6 +103,13 @@
     color: #fff;
     font: 400 14px "Microsoft YaHei";
 
+}
+.zhongshi {
+    width: 100%;
+}
+.zhongshi img {
+    display: block;
+    width: 100%;
 }
 
 .back {

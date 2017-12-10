@@ -25,12 +25,16 @@
     width: 100%;
     height: 100%;
 }
+.big_pic2 {
+    width: 100%;
+}
 .big_pic2 img {
     display: block;
+    width: 100%;
 }
 .big_pic3 {
     width: 100%;
-    padding: 0 340px;
+    padding: 0 78px;
     box-sizing: border-box;
 }
 .big_pic3 .big_pic3_left,.big_pic3 .big_pic3_right {
